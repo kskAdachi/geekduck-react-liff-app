@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint 'src/**/*.{js,jsx}",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}",
+    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write src",
+    "fix": "npm run format && npm run lint:fix",
     "preview": "vite preview"
   },
   "dependencies": {
