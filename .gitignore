@@ -27,10 +27,12 @@ dist-ssr
 # .env
 .env.production
 .env.staging
+.env.dev
 
 # github
 .github/*
 
 # firebase
+.firebase/*
 .firebaserc
 firebase.json
