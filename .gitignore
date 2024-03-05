@@ -32,5 +32,6 @@ dist-ssr
 .github/*
 
 # firebase
+.firebase/*
 .firebaserc
 firebase.json
